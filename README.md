@@ -3,10 +3,11 @@
 
 At this point, this file is a prototype of how we could deal with date and time conversion and formatting within FileMaker, but it has the broader aim.
 
-The idea behind it is to:
-- Add a way to express/store an optional timezone/offset component to the FileMaker timestamp;
+The ideas behind it is to:
+- Add a way to add an optional timezone/offset component to the FileMaker timestamp;
 - Parse incoming and format outgoing JSON dateTime information ( provide support for the main internet standards (unix epoch, iso8601, RFC 2445, RFC 2822 );
 - Provide (a) standard way(s) to express/store repeating events ( support for RFC 2445 RECUR rules);
+- Have more control over the localization and display of dates in solutions.
     
 
 
