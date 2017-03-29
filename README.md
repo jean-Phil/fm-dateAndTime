@@ -33,6 +33,7 @@ This transformation is achieved via two "support" custom functions:
 - **z_dateTimeSupport__convertTimezoneToOffset**
 
 
+---
 
 The **z_dateTimeSupport__formatDTObject.fromFormatString** custom function takes the generated "dateTimeObjects" and applies formatting, using a token approach.  
 
@@ -58,7 +59,7 @@ z_dateTimeSupport__formatDTObject.fromFormatString (
 
 
 
-This first version contains a simple localization mechanism.  The file is meant to make extending the functions easy. Adding new languages can easily be done via the i18n table. ( More on how to proceed in later version ). The function responsible for localization is called **z_dateTimeSupport__i18n_format**. 
+This first version contains a simple localization mechanism.  The file is meant to make extending the functions easy. Adding new languages can be done via the i18n table. __( More on how to proceed in later version )__ The function responsible for localization is called **z_dateTimeSupport__i18n_format**. 
 
 
 Finally, a first version of a function which both converts and formats is provided, but it has not been tested yet.  It is meant to give the idea where we are going with all that. The following function call takes a FileMaker timestamp and localizes it to French:
